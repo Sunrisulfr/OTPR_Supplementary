@@ -4,7 +4,12 @@ Figure 1.1 Left: A continuous Gaussian source distribution (colored level sets) 
 <figure class="third">
 <img src="asset/t81.png" width="200"/><img src="asset/t813.png" width="200"/>
 </figurer>
-
+<table>
+<tr>
+<td><center><img src="asset/t81.png" width="200"/></center></td>
+<td><center><img src="asset/t813.png" width="200"/></center></td>
+</tr>
+</table>
 ## Compatibility Function Guided Diffusion
 Figure 1.2 Illustration of the 8gaussians and swissroll dataset (left) and the generation result of diffusion model (right).
 <center class="half">
