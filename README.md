@@ -1,9 +1,9 @@
 # 1. Qualitative Toy Experiments
 ## Optimal Transport Guided Pair
 Figure 1.1 Left: A continuous Gaussian source distribution (colored level sets) and a multi-modal target samples from 8Gaussian distribution (yellow). Right: Samples from source distribution (yellow), paired samples (green) and unpired samples (blue) from target distribution.
-<center class="half">
+<figure class="third">
 <img src="asset/t81.png" width="200"/><img src="asset/t813.png" width="200"/>
-</center>
+</figurer>
 
 ## Compatibility Function Guided Diffusion
 Figure 1.2 Illustration of the 8gaussians and swissroll dataset (left) and the generation result of diffusion model (right).
