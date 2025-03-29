@@ -2,8 +2,10 @@
 ## Optimal Transport Guided Pair
 Figure 1.1 Left: A continuous Gaussian source distribution (colored level sets) and a multi-modal target samples from 8Gaussian distribution (yellow). Right: Samples from source distribution (yellow), paired samples (green) and unpired samples (blue) from target distribution.
 <center class="half">
+
 <img src="asset/t81.png" width="200"/>
 <img src="asset/t813.png" width="200"/>
+
 </center>
 
 ## Compatibility Function Guided Diffusion
