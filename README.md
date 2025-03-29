@@ -1,6 +1,6 @@
-# 1. Qualitative Experiments
+# 1. Qualitative Toy Experiments
 ## Optimal Transport Guided Pair
-Figure 1.1 (left) (right)
+Figure 1.1 Left: A continuous Gaussian source distribution (colored level sets) and a multi-modal target samples from 8Gaussian distribution (yellow). Right: Samples from source distribution (yellow), paired samples (green) and unpired samples (blue) from target distribution.
 <center class="half">
 <img src="asset/t81.png" width="200"/>
 <img src="asset/t813.png" width="200"/>
@@ -19,7 +19,7 @@ Figure 1.2 Illustration of the 8gaussians and swissroll dataset (left) and the g
 
 
 # 2. Pixel-based Romomimic Tasks
-Figure 2 
+Figure 2 Learning curves of online fine-tuning with various methods on pixel-based romomimic tasks.
 <center class="half">
 <img src="asset/Exp1_square_pixel.jpg" width="200"/>
 <img src="asset/Exp1_can_pixel.jpg" width="200"/>
