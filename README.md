@@ -1,6 +1,7 @@
 # 1. Qualitative Toy Experiments
 ## Optimal Transport Guided Pair
-Figure 1.1 Left: A continuous Gaussian source distribution (colored level sets) and a multi-modal target samples from 8Gaussian distribution (yellow). Middle: Samples from source distribution (yellow), paired samples (green) and unpired samples (blue) from target distribution. Right: Generated samples by approximating the barycentric projection of the OT plan.
+**Figure 1.1** **Left:** A continuous Gaussian source distribution (colored level sets) and a multi-modal target samples from 8Gaussian distribution (yellow).
+ **Middle:** Samples from source distribution (yellow), paired samples (green) and unpired samples (blue) from target distribution. **Right:** Generated samples by approximating the barycentric projection of the OT plan.
 <table>
 <tr>
 <td><center><img src="asset/t81.png" width="200"/></center></td>
@@ -10,7 +11,7 @@ Figure 1.1 Left: A continuous Gaussian source distribution (colored level sets) 
 </table>
 
 ## Compatibility Function Guided Diffusion
-Figure 1.2 Illustration of the 8gaussians and swissroll dataset (left) and the generation result of diffusion model (right).
+**Figure 1.2** Illustration of the 8gaussians and swissroll dataset (left) and the generation result of diffusion model (right).
 <table>
 <tr>
 <td><center><img src="asset/t8d.png" width="200"/></center></td>
@@ -22,7 +23,7 @@ Figure 1.2 Illustration of the 8gaussians and swissroll dataset (left) and the g
 </table>
 
 # 2. Pixel-based Romomimic Tasks
-Figure 2 Learning curves of online fine-tuning with various methods on pixel-based romomimic tasks.
+**Figure 2** Learning curves of online fine-tuning with various methods on pixel-based romomimic tasks.
 <table>
 <tr>
 <td><center><img src="asset/Exp1_square_pixel.jpg" width="200"/></center></td>
@@ -32,7 +33,7 @@ Figure 2 Learning curves of online fine-tuning with various methods on pixel-bas
 </table>
 
 # 3. Reporting of Wall-Clock Times
-Table 1 Wall-clock time for 1e6 timesteps during training in ROBOMIMIC tasks.
+**Table 1** Wall-clock time for 1e6 timesteps during training in ROBOMIMIC tasks.
 |     | OTPR | DPPO     | IDQL| DQL |
 | :---        |    :----:   |          :---: |   :---: | ---: |
 | Robomimic-Can     | 26.5min      | 24.6min   | 23.3min| 21.2min |
@@ -40,7 +41,7 @@ Table 1 Wall-clock time for 1e6 timesteps during training in ROBOMIMIC tasks.
 <!-- | Franka-Kitchen-complete   | 75.4min      | 67.8min  | 67.1min | 64.1min | -->
 
 # 4. Additional Ablation Experiment Result
-Figure 4 Comparison between OTPR with (OTPR-M) and without (OTPR-U) the expert data mask on Robomimic-Square.
+**Figure 4** Comparison between OTPR with (OTPR-M) and without (OTPR-U) the expert data mask on Robomimic-Square.
 <table>
 <tr>
 <td><center><img src="asset/Ablation1.png" width="200"/></center></td>
