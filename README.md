@@ -5,6 +5,7 @@ Figure 1.1 Left: A continuous Gaussian source distribution (colored level sets) 
 <tr>
 <td><center><img src="asset/t81.png" width="200"/></center></td>
 <td><center><img src="asset/t813.png" width="200"/></center></td>
+<td><center><img src="asset/t815.png" width="200"/></center></td>
 </tr>
 </table>
 
@@ -26,13 +27,22 @@ Figure 2 Learning curves of online fine-tuning with various methods on pixel-bas
 <tr>
 <td><center><img src="asset/Exp1_square_pixel.jpg" width="200"/></center></td>
 <td><center><img src="asset/Exp1_can_pixel.jpg" width="200"/></center></td>
-<td><center><img src="asset/Exp1_can_pixel.jpg" width="200"/></center></td>
+<td><center><img src="asset/Exp1_transport_pixel.jpg" width="200"/></center></td>
 </tr>
 </table>
 
 # 3. Reporting of Wall-Clock Times
+Table 1 Wall-clock time for 1e6 timesteps during training in ROBOMIMIC tasks.
 |     | OTPR | DPPO     | IDQL| DQL |
 | :---        |    :----:   |          :---: |   :---: | ---: |
 | Robomimic-Can     | 26.5min      | 24.6min   | 23.3min| 21.2min |
 | Robomimic-Square   | 54.4min        | 50.8min      | 49.2min| 50.3min |
 <!-- | Franka-Kitchen-complete   | 75.4min      | 67.8min  | 67.1min | 64.1min | -->
+
+# 4. Additional Ablation Experiment Result
+Figure 4 Comparison between OTPR with (OTPR-M) and without (OTPR-U) the expert data mask on Robomimic-Square.
+<table>
+<tr>
+<td><center><img src="asset/Ablation1.png" width="200"/></center></td>
+</tr>
+</table>
