@@ -51,5 +51,5 @@
  Table 2 Success rate of online fine-tuning on 10 task in Libero-Long.
 |  Libero-Long   | Task 1 | Task 2    | Task 3| Task 4| Task 5| Task 6 | Task 7    | Task 8| Task 9| Task 10|
 | :---        |    :----:   |          :---: |    :----:   |          :---:|         :---:|    :----:   |   :---:|   :---: | :---: | ---: |
-| DP   |  0.85    |  0.7 |   0.9   |  |       |  |      |  | 0.1 |  |
+| DP   |  0.85    |  0.7 |   0.9   | 0.85 |    0.7   | 0.9 |   0.6   | 0.7 | 0.1 | 0.7 |
 | OTPR   |  0.9    |  0.85 |   0.9   | 1.0  |  0.9     |1.0 |   0.8   | 0.95 | 0.35 | 0.85 |
